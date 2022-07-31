@@ -1,0 +1,152 @@
+:root {
+    --mbg: hsl(217, 54%, 11%);
+    --cbg: hsl(216, 50%, 16%);
+    --line: hsl(215, 32%, 27%);
+    --txt: hsl(215, 51%, 70%);
+    --hove: hsl(178, 100%, 50%);
+    --ho: rgba(0, 255, 247, 0.507);
+}
+
+* {
+    font-family: Outfit;
+}
+
+body {
+    background: var(--mbg);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    color: var(--txt);
+    font-size: 18px;
+    font-weight: 300;
+}
+
+h1 {
+    font-weight: 600;
+}
+
+.card {
+    background: var(--cbg);
+    height: 36rem;
+    width: 21rem;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.main-img {
+    height: 17.5rem;
+    width: 18.5rem;
+    border-radius: 15px;
+    position: absolute;
+    top: 3.5%;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.view {
+    background: var(--ho);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 17.5rem;
+    width: 18.5rem;
+    text-align: center;
+    border-radius: 15px;
+    position: absolute;
+    top: 3.5%;
+    cursor: pointer;
+    z-index: 0;
+}
+
+.icon-view {
+    width: 3rem;
+    height: 3rem;
+}
+
+.txt {
+    width: 17.81rem;
+    position: absolute;
+    top: 51%;
+    margin: 1rem;
+}
+
+.des {
+    margin-top: 0rem;
+}
+
+.details {
+    width: 18rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 75%;
+    right: 8%;
+}
+
+.icon-clock,
+.icon-ethereum {
+    height: 1rem;
+    margin: 0.4rem;
+}
+
+.icon-clock {
+    padding-left: 4.2rem;
+    margin-right: 0.4rem;
+}
+
+.line {
+    border: 1px solid var(--line);
+    width: 17.5rem;
+    position: absolute;
+    top: 85%;
+}
+
+.creator {
+    width: 17.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 90%;
+    right: 12%;
+}
+
+
+.avatar {
+    width: 2.3rem;
+    border: 1px solid white;
+    border-radius: 50px;
+    margin-right: 1rem;
+    margin-top: -1rem;
+}
+
+.hov {
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.quantity {
+    font-weight: 400;
+    color: var(--hove);
+}
+
+.hov:hover {
+    color: var(--hove);
+}
+
+.main-img:hover {
+    z-index: 0;
+}
