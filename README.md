@@ -3,6 +3,7 @@
 This is a solution to the [NFT preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Overview
+![desktop-preview](https://user-images.githubusercontent.com/94350356/182017866-5cd604c2-f1a8-4edd-ad93-d70e28677b12.jpg)
 
 ### The challenge
 
@@ -15,7 +16,12 @@ Users should be able to:
 
 Desktop view:
 
+![2022-07-31 (3)](https://user-images.githubusercontent.com/94350356/182017809-910c61a9-9995-48d1-8228-bc4738f95f6f.png)
+
 Mobile view:
+
+![2022-07-31 (4)](https://user-images.githubusercontent.com/94350356/182017827-e0fe0bdf-1297-4309-acd4-601f974a02c1.png)
+
 
 ### Links
 
